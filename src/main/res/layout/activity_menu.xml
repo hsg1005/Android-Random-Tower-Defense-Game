@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5f442"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/playGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c5f442"
+        android:textColor="#418ff4"
+        android:text="게임하기"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/introduceThisGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c5f442"
+        android:textColor="#418ff4"
+        android:text="게임설명"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/setGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c5f442"
+        android:textColor="#418ff4"
+        android:text="설정하기"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/showScore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c5f442"
+        android:textColor="#418ff4"
+        android:text="점수보기"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/finishGame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c5f442"
+        android:textColor="#418ff4"
+        android:text="게임종료"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+</LinearLayout>
